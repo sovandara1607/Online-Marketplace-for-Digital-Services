@@ -1,0 +1,12 @@
+.img-aspect {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* SERVICE CARDS */
+.services a {
+  text-decoration: none;
+  color: black;
+}

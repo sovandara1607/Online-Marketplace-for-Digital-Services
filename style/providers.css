@@ -1,0 +1,8 @@
+.provider-list {
+  outline: solid 1px #9141ac;
+}
+
+.provider-list > a {
+  text-decoration: none;
+  color: black !important;
+}

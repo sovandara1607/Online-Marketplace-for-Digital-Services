@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Not Fiverr - Content Creation</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Visoth Kim, Sovandara Rith, Misel Kosal, Stephanie Lu">
+    <meta name="description" content="Online marketplace for digital services">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style/common.css">
+    <link rel="stylesheet" href="../../style/service-description.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"> <!-- Inter Font -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap CSS -->
+  </head>
+  
+  <body>
+    <!-- HEADER -->
+    <nav class="navbar fixed-top navbar-light navbar-expand-md shadow py-3">
+      <div class="container">
+        <a class="navbar-brand" href="../landing.html">
+          <img src="../../asset/symbolic/business-suitcase.svg" alt="Logo" width="36rem">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="btn active disabled" aria-current="page" href="../../html/services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn" href="../../html/providers.html">Providers</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn" href="../../html/about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn" href="../../html/membership.html">Membership</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary" href="../../html/sign-up.html" id="profile">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      
+    <!-- CONTENT -->
+    <section class="mt-auto py-5">
+      <!-- DESCRIPTION -->
+      <div class="container py-3">
+        <a class="btn" href="../../html/services.html">< Back</a>
+      </div>
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-md-4">
+            <img src="../../asset/image/banner2.jpg" class="rounded img-fluid" alt="Service Banner">
+            <div class="d-grid my-3">
+              <button type="button" class="btn btn-primary btn-block" onclick="purchaseAlert()">Purchase</button>
+              <div class="alert alert-success mt-3 mb-0" role="alert" id="alert">
+                Order placed!
+              </div>
+            </div>
+            <a href="../../html/provider-profile/jenniekim.html">
+              <div class="row provider rounded">
+                <div class="col my-auto">
+                  <img src="../../asset/image/profile2.jpg" class="rounded-circle profile" alt="Provider Profile" width="48px" height="48px">
+                  <span>Jennie Kim</span>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          <div class="col-md-8">
+            <h2>Content Creation</h2>
+            <p>Unlock the full potential of your brand with our Content Creation services. We specialize in crafting compelling, high-quality content that resonates with your audience and drives engagement. From eye-catching visuals to captivating copy, our team ensures your brand's voice is consistent and impactful across all platforms.</p>
+            <p>Our services cover a wide range of content needs, including blog posts, social media content, video scripts, and more. We tailor each piece to align with your brand's goals and target audience, ensuring that every word and image works to build your brand's identity and reach. With a keen understanding of market trends and SEO best practices, we create content that not only engages but also performs.</p>
+            <p>Partner with us to elevate your brand’s online presence. Whether you're launching a new campaign or need ongoing content support, our team is dedicated to delivering results that matter. Let us help you tell your story and connect with your audience in meaningful ways.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <!-- FOOTER -->
+    <footer class="container-fluid footer mt-auto py-3">
+      <div class="container">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="../../html/services.html" class="nav-link px-2 text-white">Services</a></li>
+          <li class="nav-item"><a href="../../html/providers.html" class="nav-link px-2 text-white">Providers</a></li>
+          <li class="nav-item"><a href="../../html/about-us.html" class="nav-link px-2 text-white">About Us</a></li>
+          <li class="nav-item"><a href="../../html/membership.html" class="nav-link px-2 text-white">Membership</a></li>
+        </ul>
+        <p class="text-center text-white">Not Fiverr</p>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> <!-- Bootstrap Script -->
+    <script src="../../script/purchase-alert.js"></script>
+  </body>
+</html>

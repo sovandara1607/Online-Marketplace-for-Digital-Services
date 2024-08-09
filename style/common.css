@@ -1,0 +1,129 @@
+/* FONT */
+* {
+  font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3, h5 {
+  color: #9141ac !important;
+}
+
+
+/* PAGE */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+  background-color: white;
+}
+
+/* CUSTOM CLASSES */
+a {
+  text-decoration: none;
+}
+
+hr {
+  color: #9141ac !important;
+  opacity: 1 !important;
+}
+
+.btn {
+  color: #9141ac !important;
+  font-weight: bold !important;
+}
+
+.btn-primary {
+  background-color: #9141ac !important;
+  color: white !important;
+  border: none !important;
+}
+
+.btn-secondary {
+  background-color: white !important;
+  color: #9141ac !important;
+  outline: solid 1px #9141ac !important;
+  border: none !important;
+}
+
+.btn-primary.active {
+  background-color: white !important;
+  color: #9141ac !important;
+  outline: solid 2px #9141ac !important;
+  text-decoration: none !important;
+}
+
+.btn-primary:hover, .btn:hover {
+  background-color: white !important;
+  color: #9141ac !important;
+  outline: solid 2px #9141ac !important;
+}
+
+
+.btn-secondary:hover {
+  background-color: #9141ac !important;
+  color: white !important;
+}
+
+.profile {
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.hover-box:hover {
+  box-shadow: 0 0 0.5rem #9141ac;
+}
+
+.active, .provider:hover span {
+  opacity: 1 !important;
+  border: none !important;
+  text-decoration: underline !important;
+  text-decoration-color: #9141ac !important;
+  text-decoration-thickness: 3px !important;
+  text-decoration-skip-ink: none !important;
+}
+
+.provider:hover span {
+  color: #9141ac;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.alert {
+  display: none;
+}
+
+/* HEADER */
+.navbar {
+  background-color: white;
+}
+
+.navbar-nav > li {
+  padding-left: 0.25rem;
+}
+
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(145, 65, 172, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #9141ac;
+  box-shadow: 0px -0.5rem 1rem rgba(0, 0, 0, .35);
+  bottom: 0;
+}

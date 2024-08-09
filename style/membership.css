@@ -1,0 +1,44 @@
+.basic, .boosted {
+  display: flex;
+  flex-direction: column;
+}
+
+.basic h3, .boosted h3 {
+  font-weight: bold;
+}
+
+.basic {
+  outline: solid 1px #9141ac;
+}
+
+.basic ul > li {
+  color: #9141ac;
+  margin: 0.5rem;
+}
+
+.boosted {
+  background-color: #9141ac;
+}
+
+.boosted > h3 {
+  color: white !important;
+}
+
+.boosted hr {
+  color: white !important;
+}
+
+.boosted ul > li {
+  color: white;
+  margin: 0.5rem;
+}
+
+.subscribe {
+  background-color: white !important;
+  color: #9141ac !important;
+  border: none !important;
+}
+
+.subscribe:hover {
+  opacity: 0.8;
+}

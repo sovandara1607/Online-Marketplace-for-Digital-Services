@@ -1,0 +1,21 @@
+.sign-up {
+  outline: solid 1px #9141ac;
+}
+
+.sign-up img {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+label {
+  font-weight: bold;
+}
+
+#showPassword {
+  display: block;
+}
+
+#hidePassword {
+  display: none;
+}
